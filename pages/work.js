@@ -27,7 +27,7 @@ export default function Work() {
           {/* 3D Models */}
           <div className="bg-white/5 p-6 rounded-xl border border-purple-500 transition hover:scale-105 hover:bg-white/10 hover:shadow-[0_0_15px_2px_rgba(168,85,247,0.6)]">
             <Link href="/work/models">
-              <img src="/media/SMILEBOTUPDATE202141723244203142527png_video.png" className="rounded-md w-full cursor-pointer" alt="3D Digital Sculptures" />
+              <img src="/media/SMILEBOTUPDATE202141723244203142527png_video.png" className="rounded-md w-full aspect-video object-cover cursor-pointer" alt="3D Digital Sculptures" />
               <p className="mt-4 text-center text-white/80 text-lg font-semibold">Explore 3D Models</p>
             </Link>
           </div>
@@ -51,7 +51,7 @@ export default function Work() {
           {/* Show Flyers */}
           <div className="bg-white/5 p-6 rounded-xl border border-purple-500 transition hover:scale-105 hover:bg-white/10 hover:shadow-[0_0_15px_2px_rgba(168,85,247,0.6)]">
             <Link href="/work/flyers">
-              <img src="/media/diploFB.png" className="rounded-md w-full cursor-pointer" alt="Event Flyers & Show Posters" />
+              <img src="/media/diploFB.png" className="rounded-md w-full aspect-video object-cover cursor-pointer" alt="Event Flyers & Show Posters" />
               <p className="mt-4 text-center text-white/80 text-lg font-semibold">Browse Flyers</p>
             </Link>
           </div>
