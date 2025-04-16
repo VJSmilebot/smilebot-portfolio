@@ -1,51 +1,71 @@
+import Link from "next/link";
 import Layout from "./_layout";
 
 export default function Work() {
-  const projects = [
-    {
-      title: "3D Space Temple",
-      image: "/media/space-temple.jpg",
-      link: "#",
-    },
-    {
-      title: "VJ Reel 2024",
-      image: "/media/vj-reel.jpg",
-      link: "#",
-    },
-    {
-      title: "NFT Drop — Neon Waves",
-      image: "/media/neon-waves.jpg",
-      link: "#",
-    },
-    {
-      title: "Trippy Meme Collection",
-      image: "/media/trippy-meme.jpg",
-      link: "#",
-    },
-  ];
-
   return (
     <Layout>
-      <div className="min-h-screen p-6">
-        <h1 className="text-4xl font-bold mb-10 text-center">Creations</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <a
-              key={index}
-              href={project.link}
-              className="group relative block rounded-2xl overflow-hidden border border-purple-600 hover:scale-105 transition-transform"
-            >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-64 object-cover opacity-90 group-hover:opacity-100 transition"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4 text-center">
-                <h2 className="text-lg font-semibold">{project.title}</h2>
-              </div>
-            </a>
-          ))}
-        </div>
+      <div className="min-h-screen px-6 py-12 text-white">
+        <h1 className="text-5xl font-extrabold text-center mb-12">Creations</h1>
+
+        {/* 🎛️ VJ Clips */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-4">VJ Clips</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link href="/work/vj">
+              <img src="/media/vj-clip-preview.jpg" className="rounded-xl cursor-pointer" alt="VJ Preview" />
+            </Link>
+          </div>
+        </section>
+
+        {/* 😂 Memes */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-4">Meme Archive</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <Link href="/work/memes">
+              <img src="/media/meme-preview.jpg" className="rounded-lg cursor-pointer" alt="Meme Preview" />
+            </Link>
+          </div>
+        </section>
+
+        {/* 🧊 3D Models */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-4">3D Models</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <Link href="/work/models">
+              <img src="/media/3dmodel-preview.jpg" className="rounded-lg cursor-pointer" alt="3D Model Preview" />
+            </Link>
+          </div>
+        </section>
+
+        {/* 🎨 Graphic Design */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-4">Graphic Design</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <Link href="/work/design">
+              <img src="/media/design-preview.jpg" className="rounded-lg cursor-pointer" alt="Design Preview" />
+            </Link>
+          </div>
+        </section>
+
+        {/* 🖼️ NFT Collections */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-4">NFT Collections</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <Link href="/work/nfts">
+              <img src="/media/nft-preview.jpg" className="rounded-lg cursor-pointer" alt="NFT Preview" />
+            </Link>
+          </div>
+        </section>
+
+        {/* 📟 Show Flyers */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-4">Show Flyers</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <Link href="/work/flyers">
+              <img src="/media/flyer-preview.jpg" className="rounded-lg cursor-pointer" alt="Flyer Preview" />
+            </Link>
+          </div>
+        </section>
       </div>
     </Layout>
   );
