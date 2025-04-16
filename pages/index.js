@@ -19,23 +19,15 @@ export default function Home() {
         >
           Enter the Portal
         </a>
-<a href="/about" className="mt-4 block text-sm underline hover:text-purple-400">
-  Who's Smiley?
-</a>
-<a 
-  href="/connect"
-  className="mt-2 block text-sm underline hover:text-purple-400"
->
-  Let’s Connect
-</a>
-<a
-  href="/nsfw"
-  className="mt-4 block text-sm text-pink-500 underline hover:text-pink-300"
->
-  🔞 NSFW / Unfiltered Zone
-</a>
-
-
+        <a href="/about" className="mt-4 block text-sm underline hover:text-purple-400">
+          Who's Smiley?
+        </a>
+        <a
+          href="/connect"
+          className="mt-2 block text-sm underline hover:text-purple-400"
+        >
+          Let’s Connect
+        </a>
       </div>
     </div>
   );
