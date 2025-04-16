@@ -6,7 +6,7 @@ export default function Resume() {
       <div className="min-h-screen px-6 py-12 text-white max-w-4xl mx-auto">
         <h1 className="text-5xl font-extrabold text-center mb-8">Aaron "Smiley" Cate</h1>
         <p className="text-center text-purple-400 mb-4">
-          Smilebot3000@gmail.com | 943-260-8643 | Based in Atlanta, GA | <a href="https://linktr.ee/Smilebot" className="underline text-purple-300">linktr.ee/Smilebot</a>
+          Smilebot3000@gmail.com | 943-260-8643 | Based in Atlanta, GA | <a href="https://linktr.ee/Smilebot" className="underline text-purple-300" target="_blank" rel="noopener noreferrer">linktr.ee/Smilebot</a>
         </p>
 
         <section className="mb-8">
