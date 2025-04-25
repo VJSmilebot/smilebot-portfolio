@@ -6,6 +6,7 @@ export default function Models() {
       <div className="min-h-screen px-6 py-12 text-white max-w-5xl mx-auto">
         <h1 className="text-5xl font-extrabold text-center mb-8">3D Models</h1>
 
+        {/* Model 1 - Rapstars In Space */}
         <div className="mb-12">
           <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
             <iframe
@@ -19,7 +20,6 @@ export default function Models() {
               className="w-full h-full"
             ></iframe>
           </div>
-
           <p className="mt-4 text-center text-sm text-white/60">
             <a
               href="https://sketchfab.com/3d-models/rapstars-in-space-gallery-87f91d5fcb2847039b33a35fc90f4dc9"
@@ -49,50 +49,94 @@ export default function Models() {
             </a>
           </p>
         </div>
+
+        {/* Model 2 - ConnectXCard v3 */}
         <div className="mb-12">
-  <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
-    <iframe
-      title="ConnectXCard v3"
-      frameBorder="0"
-      allow="autoplay; fullscreen; xr-spatial-tracking"
-      allowFullScreen
-      mozallowfullscreen="true"
-      webkitallowfullscreen="true"
-      src="https://sketchfab.com/models/74aa78c1aa27495ab9ef46e6742038b7/embed"
-      className="w-full h-full"
-    ></iframe>
-  </div>
+          <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
+            <iframe
+              title="ConnectXCard v3"
+              frameBorder="0"
+              allow="autoplay; fullscreen; xr-spatial-tracking"
+              allowFullScreen
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              src="https://sketchfab.com/models/74aa78c1aa27495ab9ef46e6742038b7/embed"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <p className="mt-4 text-center text-sm text-white/60">
+            <a
+              href="https://sketchfab.com/3d-models/connectxcard-v3-74aa78c1aa27495ab9ef46e6742038b7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 underline"
+            >
+              ConnectXCard v3
+            </a>{" "}
+            by
+            <a
+              href="https://sketchfab.com/smilebot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 underline mx-1"
+            >
+              smilebot
+            </a>
+            on
+            <a
+              href="https://sketchfab.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 underline ml-1"
+            >
+              Sketchfab
+            </a>
+          </p>
+        </div>
 
-  <p className="mt-4 text-center text-sm text-white/60">
-    <a
-      href="https://sketchfab.com/3d-models/connectxcard-v3-74aa78c1aa27495ab9ef46e6742038b7"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-purple-400 underline"
-    >
-      ConnectXCard v3
-    </a>{" "}
-    by
-    <a
-      href="https://sketchfab.com/smilebot"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-purple-400 underline mx-1"
-    >
-      smilebot
-    </a>
-    on
-    <a
-      href="https://sketchfab.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-purple-400 underline ml-1"
-    >
-      Sketchfab
-    </a>
-  </p>
-</div>
-
+        {/* Model 3 - Mayday Axel 3D */}
+        <div className="mb-12">
+          <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
+            <iframe
+              title="Mayday Axel 3D"
+              frameBorder="0"
+              allow="autoplay; fullscreen; xr-spatial-tracking"
+              allowFullScreen
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              src="https://sketchfab.com/models/f2985a3eeb504b9da586214d11730a70/embed"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <p className="mt-4 text-center text-sm text-white/60">
+            <a
+              href="https://sketchfab.com/3d-models/mayday-axel-3d-f2985a3eeb504b9da586214d11730a70"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 underline"
+            >
+              Mayday Axel 3D
+            </a>{" "}
+            by
+            <a
+              href="https://sketchfab.com/smilebot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 underline mx-1"
+            >
+              smilebot
+            </a>
+            on
+            <a
+              href="https://sketchfab.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 underline ml-1"
+            >
+              Sketchfab
+            </a>
+          </p>
+        </div>
       </div>
     </Layout>
   );
