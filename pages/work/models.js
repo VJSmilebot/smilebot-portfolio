@@ -49,6 +49,50 @@ export default function Models() {
             </a>
           </p>
         </div>
+        <div className="mb-12">
+  <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
+    <iframe
+      title="ConnectXCard v3"
+      frameBorder="0"
+      allow="autoplay; fullscreen; xr-spatial-tracking"
+      allowFullScreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      src="https://sketchfab.com/models/74aa78c1aa27495ab9ef46e6742038b7/embed"
+      className="w-full h-full"
+    ></iframe>
+  </div>
+
+  <p className="mt-4 text-center text-sm text-white/60">
+    <a
+      href="https://sketchfab.com/3d-models/connectxcard-v3-74aa78c1aa27495ab9ef46e6742038b7"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-400 underline"
+    >
+      ConnectXCard v3
+    </a>{" "}
+    by
+    <a
+      href="https://sketchfab.com/smilebot"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-400 underline mx-1"
+    >
+      smilebot
+    </a>
+    on
+    <a
+      href="https://sketchfab.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-400 underline ml-1"
+    >
+      Sketchfab
+    </a>
+  </p>
+</div>
+
       </div>
     </Layout>
   );
