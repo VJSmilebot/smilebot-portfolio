@@ -1,25 +1,35 @@
-import Link from "next/link";
 import Layout from "./_layout";
-
 
 export default function Portal() {
   return (
     <Layout>
-      <div className="min-h-screen px-6 py-16 flex flex-col items-center justify-center text-white text-center">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-6 animate-fade-in">
-          Welcome to Smilebot Productions
-        </h1>
-        <p className="text-xl md:text-2xl max-w-3xl text-white/80 mb-10">
-          I'm Smiley — a visual artist, live event wizard, and digital mischief-maker.
-          <br className="hidden md:block" />
-          This portal contains my creations across visual art, motion graphics,
-          stagecraft, memes, 3D, NFTs, and more.
+      <div className="min-h-screen flex flex-col justify-center items-center text-center px-6 py-12 text-white">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Welcome</h1>
+        <p className="text-lg md:text-xl max-w-2xl mb-8">
+          This is your access point to all things <span className="text-purple-400 font-bold">smilebot</span>.
+          Explore my creative work, professional resumes, and links to my networks.
         </p>
-        <Link href="/work">
-          <a className="px-8 py-4 bg-purple-600 rounded-2xl text-lg hover:bg-purple-700 transition">
-            View the Work
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <a
+            href="/work"
+            className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition"
+          >
+            My Work
           </a>
-        </Link>
+          <a
+            href="/resume"
+            className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition"
+          >
+            My Resumes
+          </a>
+          <a
+            href="/links"
+            className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition"
+          >
+            My Links
+          </a>
+        </div>
       </div>
     </Layout>
   );
