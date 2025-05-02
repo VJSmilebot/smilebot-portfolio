@@ -1,5 +1,6 @@
 import Link from "next/link";
-import Layout from "../_layout";
+import Layout from "./_layout";
+
 
 export default function Portal() {
   return (
