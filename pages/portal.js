@@ -1,35 +1,24 @@
-import Layout from "../_layout";
 import Link from "next/link";
+import Layout from "../_layout";
 
 export default function Portal() {
   return (
     <Layout>
-      <div className="min-h-screen px-6 py-16 text-white flex flex-col justify-center items-center text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Welcome to the Portal</h1>
-        <p className="max-w-2xl text-lg md:text-xl text-white/80 mb-10">
-          I'm <strong>Smiley</strong> — a VJ, designer, creative technologist, and visual engineer. This is a portal into my world of immersive art, live visuals, tech experiments, and playful chaos across multiple mediums.
+      <div className="min-h-screen px-6 py-16 flex flex-col items-center justify-center text-white text-center">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-6 animate-fade-in">
+          Welcome to Smilebot Productions
+        </h1>
+        <p className="text-xl md:text-2xl max-w-3xl text-white/80 mb-10">
+          I'm Smiley — a visual artist, live event wizard, and digital mischief-maker.
+          <br className="hidden md:block" />
+          This portal contains my creations across visual art, motion graphics,
+          stagecraft, memes, 3D, NFTs, and more.
         </p>
-        <p className="max-w-2xl text-base md:text-lg text-white/70 mb-12">
-          Explore what I make, how I work, and why I do it. Whether you're looking to collaborate, hire me, or just vibe — everything you need starts here.
-        </p>
-
-        <div className="grid gap-4 md:grid-cols-3 w-full max-w-xl">
-          <Link href="/work">
-            <a className="block py-3 px-6 bg-purple-700 hover:bg-purple-600 rounded-xl transition text-lg font-medium">
-              🎨 Explore My Work
-            </a>
-          </Link>
-          <Link href="/resume">
-            <a className="block py-3 px-6 bg-purple-700 hover:bg-purple-600 rounded-xl transition text-lg font-medium">
-              🧾 View My Resumes
-            </a>
-          </Link>
-          <Link href="/connect">
-            <a className="block py-3 px-6 bg-purple-700 hover:bg-purple-600 rounded-xl transition text-lg font-medium">
-              💬 Let’s Connect
-            </a>
-          </Link>
-        </div>
+        <Link href="/work">
+          <a className="px-8 py-4 bg-purple-600 rounded-2xl text-lg hover:bg-purple-700 transition">
+            View the Work
+          </a>
+        </Link>
       </div>
     </Layout>
   );
