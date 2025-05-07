@@ -3,7 +3,7 @@ import {
   FaTelegramPlane,
   FaLinkedin,
   FaInstagram,
-  FaXTwitter,
+  FaTwitter,
   FaFacebookF,
   FaYoutube,
 } from "react-icons/fa";
@@ -49,7 +49,7 @@ export default function Links() {
             rel="noopener noreferrer"
             className="bg-purple-600 hover:bg-purple-700 w-16 h-16 flex items-center justify-center rounded-full text-2xl shadow-xl hover:scale-110 transition-all"
           >
-            <FaXTwitter />
+            <FaTwitter />
           </a>
           <a
             href="https://www.facebook.com/smilebotproductions"
