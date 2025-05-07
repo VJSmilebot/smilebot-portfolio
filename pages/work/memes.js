@@ -12,6 +12,12 @@ export default function Memes() {
       dateCreated: "2022-05-12",
     },
     {
+      src: "/media/memes/1/charts.png",
+      title: "Charts",
+      tags: "crypto, data, growth, meme",
+      dateCreated: "2022-04-20",
+    },    
+    {
       src: "/media/memes/1/aron rogerrsmeta.png",
       title: "Aaron Rogerrs Meta",
       tags: "sports, ai, celebrities",
