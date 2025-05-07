@@ -218,7 +218,7 @@ export default function Memes() {
     {
       title: "Sale.exe",
       src: "/media/memes/2/sale.png",
-      tags: "ai, glitch, capitalism",
+      tags: "ai, glitched, capitalism",
       dateCreated: "2022-11-11",
     },
   ];      
