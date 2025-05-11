@@ -24,14 +24,13 @@ export default function Portal() {
             My Resumes
           </a>
           <a
-    href="https://linktr.ee/smilebot"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition"
-  >
-    My Links
-  </a>
-</div>
+            href="https://linktr.ee/smilebot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition"
+          >
+            My Links
+         </a>
       </div>
     </Layout>
   );
