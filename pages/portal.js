@@ -30,7 +30,8 @@ export default function Portal() {
             className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition"
           >
             My Links
-         </a>
+          </a>
+        </div>
       </div>
     </Layout>
   );
