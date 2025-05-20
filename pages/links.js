@@ -1,12 +1,12 @@
 import Layout from "./_layout";
 import {
-  FaTelegram, 
+  FaTelegramPlane,
   FaLinkedin,
   FaInstagram,
-  FaXTwitter,
+  FaTwitter,
   FaFacebookF,
   FaYoutube
-} from "react-icons/fa6";
+} from "react-icons/fa";
 
 import { SiLinktree } from "react-icons/si";
 
