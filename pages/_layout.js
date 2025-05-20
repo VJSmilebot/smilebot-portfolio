@@ -13,9 +13,8 @@ export default function Layout({ children }) {
           <Link href="/about" className="hover:text-purple-400">About</Link>
           <Link href="/connect" className="hover:text-purple-400">Connect</Link>
           <Link href="/nsfw" className="text-pink-500 hover:text-pink-300">NSFW</Link>
-        <Link href="/resume" className="hover:text-purple-400">Resume</Link>
-
-</div>
+          <Link href="/resume" className="hover:text-purple-400">Resume</Link>
+        </div>
       </nav>
 
       {/* 🧱 Page Content */}

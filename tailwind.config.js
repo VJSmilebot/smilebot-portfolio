@@ -1,10 +1,22 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
+      colors: {
+        purple: {
+          600: '#a855f7',
+          700: '#9333ea',
+          800: '#7e22ce',
+        },
+      },
+      fontFamily: {
+        sans: ['"Geist Sans"', 'Arial', 'Helvetica', 'sans-serif'],
+        mono: ['"Geist Mono"', 'monospace'],
+      },
       animation: {
         'pulse-slow': 'pulse 6s ease-in-out infinite',
         'float-slow': 'float 8s ease-in-out infinite',
@@ -15,20 +27,7 @@ module.exports = {
           '50%': { transform: 'translateY(-8px)' },
         },
       },
-      colors: {
-        purple: {
-          600: '#8e44ec',
-          700: '#732dd2',
-        },
-      },
-      fontFamily: {
-        display: ['"Geist"', 'Arial', 'sans-serif'],
-        mono: ['"Geist Mono"', 'monospace'],
-      },
-      boxShadow: {
-        glow: '0 0 15px rgba(192, 132, 252, 0.8)',
-      },
     },
   },
   plugins: [],
-};
+}
