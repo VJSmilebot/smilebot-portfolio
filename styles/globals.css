@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,7 @@
   --secondary: #9333ea;
   --accent: #7e22ce;
 
-  --font-sans: 'Geist Sans', Arial, Helvetica, sans-serif;
+  --font-sans: 'Inter', Arial, Helvetica, sans-serif;
   --font-mono: 'Geist Mono', monospace;
 }
 
