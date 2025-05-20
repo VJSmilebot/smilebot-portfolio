@@ -25,3 +25,10 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+/* Button style */
+.button, a.button {
+  @apply bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition-all;
+  display: inline-block;
+  margin: 1rem 0;
+}
