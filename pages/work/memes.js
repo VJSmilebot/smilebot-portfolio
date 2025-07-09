@@ -12,7 +12,7 @@ export default function Memes() {
       dateCreated: "2022-05-12",
     },
     {
-      src: "/media/memes/1/charts.png",
+      src: "/media/memes/1/CHARTS.png",
       title: "Charts",
       tags: "crypto, data, growth, meme",
       dateCreated: "2022-04-20",
