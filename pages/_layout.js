@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     <div className="bg-black text-white min-h-screen">
       {/* 🔗 Nav */}
       <nav className="w-full px-4 py-3 flex justify-between items-center border-b border-purple-600">
-        <Link href="/" className="text-xl font-bold hover:text-purple-400 transition">
+        <Link href="/portal" className="text-xl font-bold hover:text-purple-400 transition">
           smile.bot
         </Link>
         <div className="space-x-4 text-sm">
