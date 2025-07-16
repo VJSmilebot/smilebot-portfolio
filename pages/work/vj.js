@@ -9,6 +9,20 @@ export default function VJ() {
           A collection of improvised, real-time VJ sessions streamed and performed live using custom visuals, synced audio-reactive layers, and analog glitchcraft.
         </p>
 
+        {/* --- Clips Section --- */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-6">🎬 Clips</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <video controls playsInline className="w-full rounded-lg shadow-lg" src="/media/vj/clip1.mp4" />
+            <video controls playsInline className="w-full rounded-lg shadow-lg" src="/media/vj/clip2.mp4" />
+            <video controls playsInline className="w-full rounded-lg shadow-lg" src="/media/vj/clip3.mp4" />
+            <video controls playsInline className="w-full rounded-lg shadow-lg" src="/media/vj/clip4.mp4" />
+            <video controls playsInline className="w-full rounded-lg shadow-lg" src="/media/vj/clip5.mp4" />
+            <video controls playsInline className="w-full rounded-lg shadow-lg" src="/media/vj/clip6.mp4" />          
+          </div>
+        </section>
+
+        {/* --- Existing YouTube Mixes Below --- */}
         {/* Clip 1 */}
         <div className="mb-12">
           <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
