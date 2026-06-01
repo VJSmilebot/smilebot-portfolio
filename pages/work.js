@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Layout from "./_layout";
+import Layout from "../components/Layout";
 
 export default function Work() {
   return (
     <Layout>
-      <div className="min-h-screen px-6 py-12 text-white">
-        <h1 className="text-5xl font-extrabold text-center mb-12">Creations</h1>
+      <div className="min-h-screen px-4 sm:px-6 py-10 sm:py-12 text-white">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-center mb-10 sm:mb-12">Creations</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* VJ Clips */}

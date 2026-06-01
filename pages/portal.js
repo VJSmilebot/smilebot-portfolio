@@ -1,6 +1,7 @@
-import Layout from "./_layout";
+import Layout from "../components/Layout";
 import { Audiowide } from "next/font/google";
 import { Syne } from "next/font/google";
+import { siteContent } from "../data/siteContent";
 
 const audiowide = Audiowide({
   weight: "400",
@@ -15,7 +16,7 @@ const syne = Syne({
 export default function Portal() {
   return (
     <Layout>
-      <div className="min-h-screen flex flex-col justify-center items-center text-center px-6 py-12 text-white">
+      <div className="min-h-[calc(100vh-69px)] flex flex-col justify-center items-center text-center px-4 sm:px-6 py-12 text-white">
         <h1 className={`text-4xl md:text-6xl font-extrabold mb-6 ${audiowide.className}`}>
           Welcome
         </h1>
@@ -43,7 +44,7 @@ export default function Portal() {
           </a>
 
           <a
-            href="https://linktr.ee/smilebot"
+            href={siteContent.linktreeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-purple-600 rounded-2xl text-lg font-medium hover:bg-purple-700 transition shadow-lg hover:shadow-xl"

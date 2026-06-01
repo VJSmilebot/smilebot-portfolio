@@ -1,69 +1,37 @@
-import Layout from "./_layout";
+import Layout from "../components/Layout";
+import { siteContent } from "../data/siteContent";
 
 export default function Connect() {
+  const subject = encodeURIComponent("Smilebot booking inquiry");
+
   return (
     <Layout>
-      <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 py-12">
+      <div className="min-h-[calc(100vh-69px)] flex items-center justify-center text-center px-4 sm:px-6 py-12">
         <div className="max-w-xl w-full">
-          <h1 className="text-4xl font-bold mb-4">Let’s Connect</h1>
-          <p className="mb-6 text-lg">
-            Collabs, bookings, love letters, or just vibing — reach out.
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Let&apos;s Connect</h1>
+          <p className="mb-8 text-lg text-white/80">
+            Collabs, bookings, love letters, or just vibing - reach out.
           </p>
 
-          {/* 📬 Contact Form (non-functional for now) */}
-          <form className="flex flex-col space-y-4 mb-10">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="bg-gray-800 text-white p-3 rounded-lg outline-none"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="bg-gray-800 text-white p-3 rounded-lg outline-none"
-            />
-            <textarea
-              placeholder="Message"
-              rows="4"
-              className="bg-gray-800 text-white p-3 rounded-lg outline-none"
-            />
-            <button
-              type="submit"
-              className="bg-purple-600 hover:bg-purple-700 transition p-3 rounded-lg font-semibold"
-            >
-              Send Message
-            </button>
-          </form>
+          <a
+            href={`mailto:${siteContent.email}?subject=${subject}`}
+            className="inline-flex min-h-12 items-center justify-center rounded-xl bg-purple-600 px-6 py-3 text-lg font-semibold transition hover:bg-purple-700"
+          >
+            Email Smiley
+          </a>
 
-          {/* 🔗 Social Links + Contact */}
-          <div className="space-y-2">
-            <a
-              href="https://instagram.com/smilebotnft"
-              className="block hover:text-purple-400"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              IG: @smilebotnft
+          <div className="mt-10 grid gap-3 text-left">
+            <a href={siteContent.instagramUrl} className="flex min-h-11 items-center rounded-lg bg-white/5 px-4 hover:bg-white/10" target="_blank" rel="noopener noreferrer">
+              Instagram: {siteContent.instagramHandle}
             </a>
-            <a
-              href="mailto:smilebot3000@gmail.com"
-              className="block hover:text-purple-400"
-            >
-              Email: smilebot3000@gmail.com
+            <a href={`mailto:${siteContent.email}`} className="flex min-h-11 items-center rounded-lg bg-white/5 px-4 hover:bg-white/10 break-all">
+              Email: {siteContent.email}
             </a>
-            <a
-              href="https://calendly.com/smilebotnft"
-              className="block hover:text-purple-400"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              📅 Book a Call / Show
+            <a href={siteContent.calendlyUrl} className="flex min-h-11 items-center rounded-lg bg-white/5 px-4 hover:bg-white/10" target="_blank" rel="noopener noreferrer">
+              Book a Call / Show
             </a>
-            <a
-              href="tel:+9432608643"
-              className="block hover:text-purple-400"
-            >
-              ☎️ Call or Text: (943) 260-8643
+            <a href={`tel:${siteContent.phoneHref}`} className="flex min-h-11 items-center rounded-lg bg-white/5 px-4 hover:bg-white/10">
+              Call or Text: {siteContent.phoneDisplay}
             </a>
           </div>
         </div>

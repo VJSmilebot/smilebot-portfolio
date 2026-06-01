@@ -1,10 +1,10 @@
-import Layout from "../_layout";
+import Layout from "../../components/Layout";
 
 export default function VJ() {
   return (
     <Layout>
-      <div className="min-h-screen px-6 py-12 text-white">
-        <h1 className="text-5xl font-extrabold text-center mb-4">Live Visual Sets</h1>
+      <div className="min-h-screen px-4 sm:px-6 py-10 sm:py-12 text-white">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-center mb-4">Live Visual Sets</h1>
         <p className="text-center text-white/60 max-w-2xl mx-auto mb-12">
           A collection of improvised, real-time VJ sessions streamed and performed live using custom visuals, synced audio-reactive layers, and analog glitchcraft.
         </p>
@@ -25,7 +25,7 @@ export default function VJ() {
         {/* --- Existing YouTube Mixes Below --- */}
         {/* Clip 1 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
             <iframe
               src="https://www.youtube.com/embed/rgkzg5zyya4"
               title="Smilebot Visuals - VJ Clip 1"
@@ -42,7 +42,7 @@ export default function VJ() {
 
         {/* Clip 2 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
             <iframe
               src="https://www.youtube.com/embed/KUyLLTmJwq0"
               title="Smilebot Visuals - VJ Clip 2"
@@ -59,7 +59,7 @@ export default function VJ() {
 
         {/* Clip 3 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
             <iframe
               src="https://www.youtube.com/embed/ceGE7bbWyiQ"
               title="Smilebot Visuals - VJ Clip 3"
@@ -76,7 +76,7 @@ export default function VJ() {
 
         {/* Clip 4 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg border border-purple-500">
             <iframe
               src="https://www.youtube.com/embed/nuV56NYOHQQ"
               title="Smilebot Visuals - VJ Clip 4"

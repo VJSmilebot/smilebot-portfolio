@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Layout from "../_layout";
+import Layout from "../../components/Layout";
 
 export default function Memes() {
   const [selectedMeme, setSelectedMeme] = useState(null);

@@ -1,0 +1,21 @@
+export const siteContent = {
+  displayName: 'Aaron "Smiley" Cate',
+  footerName: "Aaron Cate",
+  email: "smilebot3000@gmail.com",
+  phoneDisplay: "470-553-3856",
+  phoneHref: "+14705533856",
+  location: "US ( East ) / Mexico / Tour",
+  instagramHandle: "@smilebotnft",
+  instagramUrl: "https://instagram.com/smilebotnft",
+  calendlyUrl: "https://calendly.com/smilebotproductions",
+  linktreeUrl: "https://linktr.ee/Smilebot",
+  socials: {
+    telegram: "https://t.me/smilebotNFT",
+    linkedin: "https://www.linkedin.com/in/smilebot/",
+    instagram: "https://www.instagram.com/smilebotnft/",
+    twitter: "https://x.com/smilebot3000",
+    facebook: "https://www.facebook.com/smilebotproductions",
+    youtube: "https://www.youtube.com/channel/UCMNFP8OITxh0WI8S_RVlIlw",
+    linktree: "https://linktr.ee/Smilebot",
+  },
+};

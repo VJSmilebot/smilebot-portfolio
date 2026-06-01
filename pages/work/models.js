@@ -1,16 +1,16 @@
-import Layout from "../_layout";
+import Layout from "../../components/Layout";
 
 export default function Models() {
   return (
     <Layout>
-      <div className="min-h-screen px-6 py-12 text-white max-w-5xl mx-auto">
-        <h1 className="text-5xl font-extrabold text-center mb-8">3D Models & Virtual Spaces</h1>
+      <div className="min-h-screen px-4 sm:px-6 py-10 sm:py-12 text-white max-w-5xl mx-auto">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-center mb-8">3D Models & Virtual Spaces</h1>
 
         {/* ========== SKETCHFAB MODELS ========== */}
 
         {/* Model 1 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
+          <div className="aspect-video w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
             <iframe
               title="Rapstars In Space Gallery"
               frameBorder="0"
@@ -30,7 +30,7 @@ export default function Models() {
 
         {/* Model 2 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
+          <div className="aspect-video w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
             <iframe
               title="ConnectXCard v3"
               frameBorder="0"
@@ -50,7 +50,7 @@ export default function Models() {
 
         {/* Model 3 */}
         <div className="mb-12">
-          <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
+          <div className="aspect-video w-full rounded-xl overflow-hidden shadow-xl border border-purple-500">
             <iframe
               title="Mayday Axel 3D"
               frameBorder="0"

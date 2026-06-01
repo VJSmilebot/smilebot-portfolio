@@ -33,7 +33,7 @@ export default function Home() {
 
         <a
           href="/portal"
-          className="inline-block mt-8 px-6 py-3 bg-purple-600 rounded-2xl text-lg hover:bg-purple-700 transition"
+          className="inline-flex min-h-12 items-center mt-8 px-6 py-3 bg-purple-600 rounded-2xl text-lg hover:bg-purple-700 transition"
         >
           Enter the Portal
         </a>

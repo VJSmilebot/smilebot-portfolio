@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Local Codex browser output and manual backups
+.playwright-mcp/
+pages - Copy/
+cd
+
 # dependencies
 /node_modules
 /.pnp
